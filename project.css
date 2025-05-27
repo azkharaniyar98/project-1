@@ -21,6 +21,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 10px;
+    color: white;
 }
 
 nav li:hover{
@@ -38,6 +39,7 @@ ul {
     display: flex;
     justify-content: flex-end;
     gap: 50px;
+    margin-left: auto;
 }
 
 .top-logo {
@@ -47,4 +49,14 @@ ul {
 
 h3 {
     margin-left: 5px;
+}
+
+.home-picture {
+    display: flex;
+    height: 635px;
+    width: 500px;
+    border-radius: 30px;
+    margin-left: auto;
+    margin-right: 20px;
+    margin-top: 30px;
 }
