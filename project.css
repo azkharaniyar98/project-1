@@ -51,12 +51,20 @@ h3 {
     margin-left: 5px;
 }
 
-.home-picture {
+.first-page {
     display: flex;
-    height: 635px;
-    width: 500px;
-    border-radius: 30px;
-    margin-left: auto;
-    margin-right: 20px;
-    margin-top: 30px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;   
+}
+
+.welcome-text h1 {
+    font-family: impact;
+    font-size: 100px;
+    line-height: 1.3; 
+}
+
+.first-picture img {
+    height: 600px;
+    border-radius: 100px;
 }
